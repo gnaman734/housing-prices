@@ -51,6 +51,27 @@ Classical regression methods remain strong baselines in tabular real-estate task
 \subsection{Dataset Description}
 The system uses the Kaggle \texttt{Housing.csv} dataset (545 rows, 13 columns), including structural and neighborhood-related attributes such as area, bedrooms, bathrooms, stories, parking, road access, and furnishing status. The prediction target is \texttt{price}.
 
+\subsection{Input--Output Specification}
+\textbf{Input (training):} CSV file with historical property records and a numeric target column (\texttt{price}), including location, size, rooms, age/amenity, and optional market indicators.
+
+\textbf{Input (inference):} CSV file with property feature columns (target optional/not required).
+
+\textbf{Output:} Predicted property price for each row, model performance metrics (MAE, RMSE, $R^2$), and key price-driving features.
+
+\subsection{System Architecture (ML Pipeline)}
+\begin{lstlisting}[language={}]
+Historical CSV -> Preprocessing
+               -> Feature Encoding
+               -> Train/Test Split
+               -> Model Training (LR/DT/RF)
+               -> Evaluation (MAE, RMSE, R2)
+               -> Artifact Save (joblib + metadata)
+
+New Property CSV -> Load Trained Artifact
+                 -> Inference
+                 -> Predicted Price + Downloadable CSV
+\end{lstlisting}
+
 \subsection{Preprocessing}
 The following transformations are applied:
 \begin{itemize}
@@ -118,8 +139,12 @@ Milestone 1 requirements are satisfied with a complete ML workflow, comparative 
 
 \subsection{Repository Link}
 \begin{center}
-\textbf{\url{https://github.com/<your-username>/<your-repository>}}\\
-\textit{(Replace with your final repository URL before submission.)}
+\textbf{\url{https://github.com/gnaman734/housing-prices}}
+\end{center}
+
+\subsection{Public Deployment Link}
+\begin{center}
+\textbf{\url{https://<add-your-streamlit-or-hf-space-url>}}
 \end{center}
 
 \subsection{Repository Structure}
