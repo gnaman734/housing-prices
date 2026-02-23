@@ -1,0 +1,31 @@
+city,neighborhood,sqft,bedrooms,bathrooms,age_years,has_parking,has_gym,amenity_score,distance_to_metro_km,market_index,price
+Austin,Downtown,920,2,2,6,yes,yes,8.4,0.8,1.12,412000
+Austin,Suburban North,1450,3,2,12,yes,no,7.1,4.5,1.06,438000
+Austin,Riverside,780,1,1,18,no,no,6.0,2.7,1.01,255000
+Austin,West Hills,2100,4,3,9,yes,yes,8.8,6.2,1.15,689000
+Austin,Tech Corridor,1320,3,2,4,yes,yes,8.2,1.4,1.18,522000
+Dallas,Uptown,980,2,2,7,yes,yes,8.5,0.9,1.10,398000
+Dallas,North Lake,1600,3,2,14,yes,no,7.0,5.6,1.03,420000
+Dallas,Arts District,860,1,1,10,no,yes,7.9,1.1,1.08,301000
+Dallas,Greenfield,2300,4,3,11,yes,yes,8.1,7.4,1.04,610000
+Dallas,Elm Square,1250,2,2,5,yes,no,7.7,2.2,1.09,372000
+Seattle,Capitol Hill,910,2,1,15,no,yes,8.3,0.7,1.22,530000
+Seattle,Ballard,1180,2,2,8,yes,yes,8.6,1.8,1.20,612000
+Seattle,Fremont,760,1,1,20,no,no,7.2,2.5,1.17,410000
+Seattle,Queen Anne,1850,3,2,10,yes,yes,8.9,2.1,1.24,825000
+Seattle,South Lake Union,1020,2,2,3,yes,yes,9.1,0.6,1.28,745000
+San Jose,Downtown,870,1,1,13,no,yes,7.8,1.2,1.27,620000
+San Jose,Willow Glen,1520,3,2,9,yes,no,8.0,4.1,1.25,770000
+San Jose,North Park,2010,4,3,7,yes,yes,8.4,5.9,1.29,1025000
+San Jose,East Valley,1140,2,2,16,yes,no,6.8,6.5,1.19,558000
+San Jose,Tech District,1360,3,2,4,yes,yes,9.0,1.6,1.31,915000
+Miami,Brickell,890,1,1,6,no,yes,8.7,0.9,1.14,470000
+Miami,Doral,1480,3,2,11,yes,no,7.3,4.7,1.07,496000
+Miami,Wynwood,970,2,1,14,no,yes,7.9,1.5,1.11,429000
+Miami,Coral Gables,1920,3,3,10,yes,yes,8.5,5.1,1.13,760000
+Miami,South Beach,1090,2,2,8,yes,yes,8.8,1.0,1.16,689000
+Denver,LoDo,940,2,2,9,yes,yes,8.1,1.1,1.09,455000
+Denver,Aurora,1360,3,2,15,yes,no,6.9,7.2,1.00,365000
+Denver,Cherry Creek,1760,3,2,6,yes,yes,8.6,3.0,1.12,692000
+Denver,Highlands,1210,2,2,7,yes,yes,8.2,2.6,1.10,538000
+Denver,Westminster,1580,3,2,13,yes,no,7.1,8.1,1.02,404000
